@@ -1,0 +1,109 @@
+body {
+  font-family: lato light;
+}
+h1 {
+  font-family: lato regular;
+  font-size: 24px;
+  font-weight: 400;
+}
+.logo {
+  width: 10%;
+  padding: 1%;
+  text-align: center;
+}
+
+.titleMain {
+  color: #303030;
+  text-align: center;
+  font-family: righteous;
+  font-size: 36px;
+  margin: 10px auto;
+}
+.subTitle {
+  color: #303030;
+  font-family: lato regular;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+header {
+  background-color: #cfe0c3;
+}
+.inlineBlock nav {
+  display: inline-block;
+  color: #303030;
+  font-family: righteous;
+  vertical-align: top;
+  align-items: center;
+}
+nav,
+nav ul {
+  font-family: righteous;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blank {
+  height: 300px;
+}
+
+.heroImg {
+  color: #303030;
+  background-color: #cfe0c3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 650px;
+  padding: 25px;
+}
+/* .content {
+  width: 850px;
+  margin: 0 auto;
+} */
+
+footer {
+  background-color: #cfe0c3;
+  padding: 10px;
+}
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
+.footerContact {
+  font-family: lato regular;
+  font-size: 18px;
+}
+
+.footerResume {
+  font-family: lato regular;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.footerEmail {
+  font-family: lato regular;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.footerEmailId {
+  font-family: lato light;
+  font-size: 14px;
+}
+.footerWork {
+  font-family: lato regular;
+  font-size: 18px;
+}
+.footerFulllList {
+  font-family: lato regular;
+  font-size: 14px;
+  padding-top: 5px;
+}
