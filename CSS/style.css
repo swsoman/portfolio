@@ -73,16 +73,15 @@ footer {
   background-color: #cfe0c3;
   padding: 10px;
 }
-.footer ul {
+footer ul {
   display: flex;
-  flex-direction: row;
-  padding: 3%;
+  flex-direction: column;
 }
+
 .footerContact {
   font-family: lato regular;
   font-size: 18px;
 }
-
 .footerResume {
   font-family: lato regular;
   font-size: 14px;
@@ -106,4 +105,20 @@ footer {
   font-family: lato regular;
   font-size: 14px;
   padding-top: 5px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footerLogo {
+  width: 100px;
+  height: 100px;
+}
+.footer-text {
+  display: flex;
+}
+
+.follow {
+  text-align: center;
+  margin-right: 75px;
 }
