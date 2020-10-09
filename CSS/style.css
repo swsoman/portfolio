@@ -10,8 +10,9 @@ h1 {
   font-weight: 400;
 }
 .logo {
-  width: 10%;
-  padding: 1%;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
   text-align: center;
   font-family: "Righteous", cursive;
   font-weight: 700;
